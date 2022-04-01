@@ -9,4 +9,6 @@ Pasta de estudos.
   <li>Promises</li>
   <li>Fetch Api</li>
   <li>Local Storage</li>
+  <li>Try Catch</li>
+  <li>Async Await</li>
 </ul>
