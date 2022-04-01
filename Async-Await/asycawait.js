@@ -1,8 +1,16 @@
-async function pushGitData() {
+async function pushApi() {
   const data = await fetch("https://api.github.com/users/MatheusSanteago");
   const dataJson = await data.json();
-  console.log(dataJson);
+  return dataJson
 }
 
-pushGitData();
+async function get(){
+    var userinfo = await pushApi();
+    for(i in userinfo){
+        console.log(i);
+    }
+}
+get();
+
+
 
