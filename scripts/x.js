@@ -58,7 +58,7 @@ function exibir(e) {
   drawCircle(posX, posY, raio + 3, "black");
 }
 
-function iniciar() {
+function startGame() {
   n = num.value;
   console.log(n);
   switch (n) {
@@ -83,5 +83,6 @@ function draw(speed) {
     clicked = false;
     setInterval(exibir, speed);
     btn.style.display = "none";
+    num.style.display = "none";
   }
 }
